@@ -34,9 +34,9 @@ cask "opendoctrines" do
   # Matches the published asset names: OpenDoctrines-macos-{arm64,x64}.zip
   arch arm: "arm64", intel: "x64"
 
-  version "1.3.0b"
-  sha256 arm:   "84313fd203f5d10c78d711cf1976bb806a353cd4129de42daafc1a71de25115c",
-         intel: "55555ed7354addcdfa17dfa0f760a2ad94642cedec6eb6ac916f9295dae0e5ea"
+  version "1.3.1b"
+  sha256 arm:   "88e8e89b775c276eeab9158775af1b300180ecf7973816c49b584c0d8ec56c45",
+         intel: "8265abd50826dcd514013970afb31f263ad7199f500f2a3093063970cb6781f9"
 
   url "https://github.com/Pr1nted/Open-Doctrines/releases/download/v#{version}/OpenDoctrines-macos-#{arch}.zip"
   name "OpenDoctrines"
